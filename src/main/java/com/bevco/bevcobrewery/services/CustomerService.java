@@ -1,0 +1,10 @@
+package com.bevco.bevcobrewery.services;
+
+import com.bevco.bevcobrewery.web.model.CustomerDto;
+
+import java.util.UUID;
+
+public interface CustomerService {
+
+    CustomerDto getCustomerById(UUID customerId);
+}
